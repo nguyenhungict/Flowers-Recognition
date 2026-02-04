@@ -1,0 +1,16 @@
+data:
+  root_dir: "E:/USTH_ICT/B3/Deep Learning/flowers"       
+  img_size: 160
+  batch_size: 32
+  num_workers: 4
+
+train:
+  epochs: 12
+  learning_rate: 0.0005        
+  val_split: 0.2
+  seed: 42
+  device: "cuda"               
+
+model:
+  type: "resnet18"
+  pretrained: true             
