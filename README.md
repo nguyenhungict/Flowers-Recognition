@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A Deep Learning project for classifying flower species using PyTorch and Transfer Learning with **ResNet18**. This project provides a complete pipeline from data loading (using `ImageFolder`) to training, evaluation, and inference.
 
